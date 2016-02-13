@@ -17,7 +17,9 @@
       ],
       "uniqueItems" : true
     },
-    "properties" : { "$ref" : "properties.json"},
+    "properties" : {
+        "$ref" : "properties"
+        },
       "entities" : {
         "type" : "array",
         "min" : 1,
