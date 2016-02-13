@@ -1,0 +1,41 @@
+{
+  "class": [
+    "advocate",
+    "site-user",
+    "user"
+  ],
+  "properties": {
+    "id": 775453,
+    "givenName": "Step Zero Test",
+    "familyName": "Step Zero Test",
+    "email": "stepzerotest@example.com",
+    "phone": "(555) 533-9527",
+    "acceptedTermsOfService": true,
+    "referralCodes": [
+      {
+        "referralCode": "2134336",
+        "isPrimary": true
+      }
+    ],
+    "referralTier": "a8JU0000000PBKuMAO",
+    "referralsSold": 0
+  },
+  "entities": [
+    {
+      "class": [
+        "address",
+        "us-address"
+      ],
+      "rel": [
+        "address"
+      ],
+      "properties": {
+        "streetAddress": "1382134841 Market Street",
+        "locality": "Pocomoke City",
+        "region": "MD",
+        "postalCode": "21851",
+        "countryName": "US"
+      }
+    }
+]
+}

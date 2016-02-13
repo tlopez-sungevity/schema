@@ -1,0 +1,18 @@
+{
+"properties": {
+    "id": 775453,
+    "givenName": "Step Zero Test",
+    "familyName": "Step Zero Test",
+    "email": "stepzerotest@example.com",
+    "phone": "(555) 533-9527",
+    "acceptedTermsOfService": true,
+    "referralCodes": [
+      {
+        "referralCode": "2134336",
+        "isPrimary": true
+      }
+    ],
+    "referralTier": "a8JU0000000PBKuMAO",
+    "referralsSold": 0
+  }
+}

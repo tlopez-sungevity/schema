@@ -1,0 +1,58 @@
+{
+        "type": "object",
+        "properties": {
+              "id": {
+                "type": "number"
+              },
+              "givenName": {
+                "type": "string"
+              },
+              "familyName": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              },
+              "phone": {
+                "type": "string"
+              },
+              "acceptedTermsOfService": {
+                "type": "boolean"
+              },
+              "referralCodes": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "referralCode": {
+                      "type": "string"
+                    },
+                    "isPrimary": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "referralCode",
+                    "isPrimary"
+                  ]
+                }
+              },
+              "referralTier": {
+                "type": "string"
+              },
+              "referralsSold": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "id",
+              "givenName",
+              "familyName",
+              "email",
+              "phone",
+              "acceptedTermsOfService",
+              "referralCodes",
+              "referralTier",
+              "referralsSold"
+            ]
+}
